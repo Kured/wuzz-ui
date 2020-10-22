@@ -59,7 +59,7 @@ body {
     padding: 0;
     overflow: visible;
     transition: transform 125ms ease!important;
-	transform: translateY(0px) skew(-24deg);
+	transform: translateY(0px) skew(-18deg);
 }
 
 .wz-button-game-icon  { padding: 2px 22px 2px 22px; min-width: 54px;}
