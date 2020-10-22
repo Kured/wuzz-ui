@@ -52,6 +52,7 @@ body {
 }
 
 .wz-button-game {
+    font-family: Teko, "Helvetica Neue", sans-serif; 
     display: inline-block;
     position: relative;
     border-radius: 4px;
@@ -59,7 +60,8 @@ body {
     padding: 0;
     overflow: visible;
     transition: transform 125ms ease!important;
-	transform: translateY(0px) skew(-18deg);
+    transform: translateY(0px) skew(-18deg);
+    padding: 4px 22px 0px 22px;
 }
 
 .wz-button-game-icon  { padding: 2px 22px 2px 22px; min-width: 54px;}
