@@ -67,9 +67,10 @@ body {
     border: none;
     overflow: visible;
     transition: transform 125ms ease!important;
-    transform: translateY(0px) skew(-18deg);
+    transform: translateY(0px) skew(-18deg)!important;
     padding: 3px 22px 0px 22px;
 }
+.wz-button-game:active {transform: translateY(-12px) skew(-18deg)!important}
 
 .wz-button-cell {
     display: inline-block;
