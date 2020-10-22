@@ -34,7 +34,7 @@ body {
 
 .wz-game-font { margin: 0; font-family: Teko, "Helvetica Neue", sans-serif;}
 
-.wz-button-game, .wz-button-round, .wz-button-round-outline, .wz-button-circle, .wz-button-circle-outline, .wz-button-cell-face, .wz-button-cell {
+.wz-button-round, .wz-button-round-outline, .wz-button-circle, .wz-button-circle-outline, .wz-button-cell-face, .wz-button-cell {
     margin: 0;
     outline: none!important;
     background: transparent;
@@ -52,10 +52,16 @@ body {
 }
 
 .wz-button-game {
+    background: transparent;
     font-family: Teko, "Helvetica Neue", sans-serif; 
+    font-weight: 400;
+    font-size: 22px;
     display: inline-block;
+    box-sizing: border-box;
+    cursor: pointer;
     position: relative;
     border-radius: 4px;
+    outline: none!important;
     border: none;
     padding: 0;
     overflow: visible;
