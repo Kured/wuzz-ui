@@ -52,6 +52,7 @@ body {
 }
 
 .wz-button-game {
+    min-height: 40px;
     background: transparent;
     font-family: Teko, "Helvetica Neue", sans-serif; 
     font-weight: 400;
