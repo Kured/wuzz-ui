@@ -34,7 +34,7 @@ body {
 
 .wz-game-font { margin: 0; font-family: Teko, "Helvetica Neue", sans-serif;}
 
-.wz-button-game, .wz-button-round, .wz-button-round-outline, .wz-button-circle, .wz-button-circle-outline {
+.wz-button-game, .wz-button-round, .wz-button-round-outline, .wz-button-circle, .wz-button-circle-outline, .wz-button-cell-face, .wz-button-cell {
     margin: 0;
     outline: none!important;
     background: transparent;
@@ -63,6 +63,30 @@ body {
     transform: translateY(0px) skew(-18deg);
     padding: 4px 22px 0px 22px;
 }
+
+.wz-button-cell {
+    display: inline-block;
+    position: relative;
+    border-radius: 6px;
+    border: none;
+    padding: 0;
+}
+.wz-button-cell-face {
+    font-size: 18px; 
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    min-width: 60px;
+    min-height: 42px;
+    border: none;
+    padding: 2px 24px 2px 24px; 
+    white-space: nowrap;
+    transition: transform 150ms ease!important;
+    transform: translateY(-6px);
+}
+.wz-button-cell-face:active {transform: translateY(0px);}
 
 .wz-button-game-icon  { padding: 2px 22px 2px 22px; min-width: 54px;}
 
