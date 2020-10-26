@@ -6,7 +6,7 @@ window._toggleTheme = function(themeMode) {
    // check theme not already set to mode
    $elementThemeSetting = document.getElementById("themeSetting");
    if (themeMode && $elementThemeSetting.className === themeMode) return;
-   
+
    // toggle theme
    $elementsThemeL = document.querySelectorAll('.wz-light');
    $elementsThemeD = document.querySelectorAll('.wz-dark');
